@@ -1,0 +1,499 @@
+/*Font Imports*/
+@import url("https://fonts.googleapis.com/css2?family=Jua&family=Rampart+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chewy&display=swap");
+/**/
+
+/*Layout CSS*/
+
+html {
+  max-width: 1500px;
+  background-image: url(https://i.pinimg.com/564x/75/aa/7a/75aa7a5cd945ce4164721a30da4aaed9.jpg);
+}
+
+body {
+  border: 10px solid black;
+  border-radius: 10px;
+  margin: 40px;
+  background-repeat: repeat;
+  background-size: 45%;
+  background-color: rgb(255, 219, 156);
+}
+/**/
+
+/*Name and Navbar CSS*/
+
+.resturant-name {
+  font-size: 80px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 15px;
+  font-family: "Rampart One", cursive;
+  color: black;
+}
+
+a {
+  text-decoration-line: none;
+  font-weight: bold;
+  font-family: "Jua", sans-serif;
+  color: black;
+}
+
+a:visited {
+  color: #fcfcdf;
+}
+
+#navbar {
+  border: 2px solid transparent;
+  height: 30px;
+  text-align: center;
+  word-spacing: 200px;
+  font-size: 20px;
+  background-color: rgb(223, 111, 129);
+  border-radius: 3px;
+}
+/**/
+
+/*Front Page Images CSS*/
+
+#main-pictures {
+  display: flex;
+  justify-content: center;
+}
+
+.main-image {
+  margin-top: 5px;
+  border-radius: 20px;
+  border: 3px solid #fcfcdf;
+  width: 32%;
+}
+
+.main-image:nth-of-type(2) {
+  margin-bottom: 7px;
+}
+/**/
+
+/* Description CSS*/
+#main-info {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+#main-info p {
+  font-size: 30px;
+  line-height: 30px;
+  width: 50%;
+  font-family: "Jua", sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  margin-right: 150px;
+}
+
+span {
+  font-size: 50px;
+}
+/**/
+/*Icon Section CSS*/
+
+h2 {
+  font-size: 60px;
+  text-decoration: underline;
+  font-family: "Jua", sans-serif;
+  text-align: center;
+}
+
+a .icon {
+  height: 10vh;
+  width: 70px;
+  color: black;
+}
+
+/**/
+/*Graphic CSS*/
+
+#fries-basket {
+  position: relative;
+  display: block;
+
+  width: 50%;
+  height: 50px;
+  transform: scale(1.9, 2.5);
+  margin-top: 20%;
+  margin: 20% auto 6% auto;
+}
+
+.basket {
+  border-right: 20px solid transparent;
+  border-left: 20px solid transparent;
+  border-top: 60px solid maroon;
+  border-radius: 3px;
+  width: 250px;
+  height: 0;
+  margin: auto;
+}
+
+.label {
+  margin-top: -46px;
+  font-size: 30px;
+  text-align: center;
+  font-family: "Chewy", cursive;
+  color: white;
+}
+
+.fry {
+  position: absolute;
+  background-color: black;
+  border: 0.8px solid black;
+  margin: auto;
+  left: 0;
+  right: 0;
+}
+
+.fry:nth-of-type(1) {
+  border-bottom: 20px solid #ffcc66;
+  width: 8rem;
+  bottom: 3rem;
+  left: -13rem;
+  transform: rotate(40deg);
+  z-index: -1;
+}
+
+.fry:nth-of-type(2) {
+  border-bottom: 20px solid #ffcc66;
+  width: 7rem;
+  bottom: 4rem;
+  left: -14rem;
+  transform: rotate(55deg);
+  z-index: -2;
+}
+
+.fry:nth-of-type(3) {
+  border-bottom: 20px solid #ffcc66;
+  width: 6rem;
+  bottom: 4rem;
+  left: -11rem;
+  transform: rotate(-60deg);
+  z-index: -2;
+}
+
+.fry:nth-of-type(4) {
+  border-bottom: 20px solid #ffcc66;
+  width: 7rem;
+  bottom: 4rem;
+  left: -11rem;
+  transform: rotate(60deg);
+  z-index: -2;
+}
+
+.fry:nth-of-type(5) {
+  border-bottom: 20px solid #ffcc66;
+  width: 6em;
+  bottom: 3rem;
+  left: -7rem;
+  transform: rotate(100deg);
+  z-index: -2;
+}
+
+.fry:nth-of-type(6) {
+  border-bottom: 20px solid #ffcc66;
+  width: 7rem;
+  bottom: 4rem;
+  left: -4rem;
+  transform: rotate(60deg);
+  z-index: -2;
+}
+
+.fry:nth-of-type(7) {
+  border-bottom: 20px solid #ffcc66;
+  width: 8rem;
+  bottom: 3rem;
+  left: -3rem;
+  transform: rotate(-50deg);
+  z-index: -1;
+}
+
+.fry:nth-of-type(8) {
+  border-bottom: 20px solid #ffcc66;
+  width: 6em;
+  bottom: 3rem;
+  left: -3rem;
+  transform: rotate(100deg);
+  z-index: -2;
+}
+
+.fry:nth-of-type(9) {
+  border-bottom: 20px solid #ffcc66;
+  width: 6em;
+  bottom: 3rem;
+  left: 2rem;
+  transform: rotate(-60deg);
+  z-index: -2;
+}
+
+.fry:nth-of-type(10) {
+  border-bottom: 20px solid #ffcc66;
+  width: 4rem;
+  bottom: 3rem;
+  left: 2rem;
+  transform: rotate(70deg);
+  z-index: -3;
+}
+
+.fry:nth-of-type(11) {
+  border-bottom: 20px solid #ffcc66;
+  width: 7rem;
+  bottom: 4rem;
+  left: 5rem;
+  transform: rotate(-60deg);
+  z-index: -4;
+}
+
+.fry:nth-of-type(12) {
+  border-bottom: 20px solid #ffcc66;
+  width: 7rem;
+  bottom: 3rem;
+  left: 3rem;
+  transform: rotate(60deg);
+  z-index: -2;
+}
+
+.fry:nth-of-type(13) {
+  border-bottom: 20px solid #ffcc66;
+  width: 8rem;
+  bottom: 3rem;
+  left: 3rem;
+  transform: rotate(-50deg);
+  z-index: -1;
+}
+
+.fry:nth-of-type(14) {
+  border-bottom: 20px solid #ffcc66;
+  width: 6em;
+  bottom: 3rem;
+  left: 9rem;
+  transform: rotate(-50deg);
+  z-index: -2;
+}
+
+.fry:nth-of-type(15) {
+  border-bottom: 20px solid #ffcc66;
+  width: 8rem;
+  bottom: 3rem;
+  left: 13rem;
+  transform: rotate(-30deg);
+  z-index: -3;
+}
+
+.fry:nth-of-type(16) {
+  border-bottom: 20px solid #ffcc66;
+  width: 7rem;
+  bottom: 4rem;
+  left: 8rem;
+  transform: rotate(-70deg);
+  z-index: -4;
+}
+
+.fry:nth-of-type(17) {
+  border-bottom: 20px solid #ffcc66;
+  width: 5rem;
+  bottom: 4rem;
+  left: 13rem;
+  transform: rotate(70deg);
+  z-index: -2;
+}
+
+.fry:nth-of-type(18) {
+  border-bottom: 20px solid #ffcc66;
+  width: 8rem;
+  bottom: 3.5rem;
+  left: 11rem;
+  transform: rotate(-55deg);
+  z-index: -2;
+}
+/**/
+
+/*Start Of Media Queries CSS*/
+
+@media screen and (max-width: 1200px) {
+  #main-info p {
+    width: 50%;
+  }
+
+  #fries-basket {
+    width: 50%;
+    height: 50px;
+    margin: 25% auto 10% auto;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .resturant-name {
+    font-size: 60px;
+  }
+
+  #main-info {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+  }
+
+  #main-info p {
+    width: 80%;
+    margin-right: 0px;
+  }
+
+  h2 {
+    font-size: 60px;
+  }
+
+  #icons {
+    width: 100%;
+    text-align: center;
+  }
+
+  a .icon {
+    margin-top: -40px;
+    width: 10%;
+  }
+
+  #fries-basket {
+    margin: 25% auto 10% auto;
+    transform: scale(1.5, 2);
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .resturant-name {
+    font-size: 45px;
+  }
+
+  #fries-basket {
+    margin: 30% auto 10% auto;
+    transform: scale(1.5, 2);
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .resturant-name {
+    font-size: 35px;
+  }
+
+  #navbar {
+    word-spacing: 100px;
+  }
+
+  h2 {
+    font-size: 50px;
+  }
+
+  #fries-basket {
+    margin: 30% 0% 10% 25%;
+    transform: scale(1, 1.4);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .resturant-name {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 45px;
+  }
+
+  .fries-graphic {
+    margin: 30% 0% 10% -10%;
+    transform: scale(0.9, 1);
+  }
+
+  .fry:nth-of-type(3) {
+    left: -8rem;
+  }
+
+  .basket {
+    border-right: 20px solid transparent;
+    border-left: 20px solid transparent;
+    border-top: 60px solid maroon;
+    border-radius: 3px;
+    width: 250px;
+    height: 0;
+    margin: 0px;
+  }
+
+  .fry {
+    width: 10%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .fries-graphic {
+    margin: 30% 0% 0% -15%;
+    transform: scale(0.9, 1);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .resturant-name {
+    font-size: 30px;
+  }
+
+  #navbar {
+    height: 20px;
+    text-align: center;
+    word-spacing: 50px;
+    font-size: 16px;
+  }
+
+  #main-info p {
+    font-size: 20px;
+    width: 90%;
+  }
+
+  h2 {
+    font-size: 40px;
+  }
+
+  .fries-graphic {
+    margin: 30% 0% 0% -20%;
+    transform: scale(0.7, 1);
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #navbar {
+    word-spacing: 40px;
+  }
+
+  .fries-graphic {
+    margin: 30% 0% 0% -33%;
+    transform: scale(0.7, 0.9);
+  }
+  .basket {
+    width: 310px;
+    margin: auto -10%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  h2 {
+    font-size: 35px;
+  }
+
+  .fries-graphic {
+    margin: 30% 0% 0% -29%;
+    transform: scale(0.5, 0.7);
+  }
+  .basket {
+    width: 310px;
+    margin: auto -24%;
+  }
+
+  a .icon {
+    margin-top: -40px;
+    width: 12%;
+  }
+}
+
+/**/
