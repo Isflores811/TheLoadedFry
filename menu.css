@@ -1,0 +1,406 @@
+/*Font Imports*/
+@import url("https://fonts.googleapis.com/css2?family=Jua&family=Rampart+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chewy&display=swap");
+/**/
+
+html {
+  max-width: 1500px;
+}
+
+/*Layout Of Page CSS*/
+
+#layout {
+  background-color: rgb(255, 219, 156);
+}
+
+body {
+  border: 10px solid black;
+  border-radius: 10px;
+  margin: 40px;
+  background-image: url(https://i.pinimg.com/564x/75/aa/7a/75aa7a5cd945ce4164721a30da4aaed9.jpg);
+  background-repeat: repeat;
+  background-size: 45%;
+}
+
+/*Name and Navbar CSS*/
+
+.resturant-name {
+  font-size: 80px;
+  text-align: center;
+  letter-spacing: 15px;
+  font-family: "Rampart One", cursive;
+  color: black;
+}
+
+a {
+  text-decoration-line: none;
+  font-weight: bold;
+  font-family: "Jua", sans-serif;
+  color: black;
+}
+
+a:visited {
+  color: #fcfcdf;
+}
+
+#navbar {
+  border: 2px solid transparent;
+  height: 30px;
+  text-align: center;
+  word-spacing: 200px;
+  font-size: 20px;
+  background-color: rgb(223, 111, 129);
+  border-radius: 3px;
+}
+/**/
+
+/*Menu PDF CSS */
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  text-decoration: underline;
+  font-family: "Chewy", cursive;
+  letter-spacing: 5px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  grid-gap: 20px;
+}
+
+a .menu-pdf {
+  width: 250px;
+  border: 6px solid #fcfcdf;
+  border-radius: 10px;
+}
+
+a .menu-pdf:hover {
+  width: 300px;
+}
+/**/
+
+/*Catering CSS */
+
+h2 {
+  text-align: center;
+  font-size: 50px;
+  text-decoration: underline;
+  font-family: "Chewy", cursive;
+  letter-spacing: 5px;
+}
+
+.catering-box {
+  display: flex;
+  flex-direction: row-reverse;
+  width: auto;
+  margin-bottom: 20px;
+  background-color: #f27980;
+  opacity: 0.8;
+  background: repeating-linear-gradient(
+    45deg,
+    #fcfcdf,
+    #fcfcdf 5px,
+    #f27980 5px,
+    #f27980 25px
+  );
+  overflow: auto;
+}
+
+.catering-fries-picture {
+  width: 20%;
+  margin: 15px 60px 20px auto;
+  border-radius: 5px;
+  box-shadow: 10px 10px 40px -15px;
+}
+
+.catering-box p {
+  width: 70%;
+  font-size: 37px;
+  text-align: center;
+  font-family: "Jua", sans-serif;
+  margin-left: 40px;
+  margin-right: 20px;
+  box-shadow: 0px 10px 20px -10px;
+  background-color: #f27980;
+}
+/**/
+
+/*Send Us a Message CSS*/
+#message-center {
+  padding-bottom: 30px;
+}
+.send-message {
+  border: 5px transparent;
+
+  width: 70%;
+  margin: 50px auto 10px auto;
+  opacity: 0.8;
+
+  padding-top: 15px;
+  border-radius: 10px;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  background-color: #f27980;
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px -10px;
+  padding-bottom: 30px;
+  margin: 20px 30px 20px 30px;
+}
+
+h3 {
+  display: inline;
+  text-align: center;
+  font-size: 35px;
+  font-family: "Chewy", cursive;
+  letter-spacing: 5px;
+  background-color: #f27980;
+  box-shadow: 0px 10px 20px -10px;
+  margin: 15px 100px 20px 10px;
+  border-radius: 10px;
+}
+
+.info {
+  width: 300px;
+  height: 60px;
+  font-size: 15px;
+  border: transparent;
+  margin: 30px auto 0px auto;
+  border-radius: 10px;
+  padding-left: 15px;
+}
+
+textarea {
+  width: 80%;
+  border: transparent;
+  border-radius: 10px;
+  padding: 10px 15px 20vh 15px;
+  margin: 30px auto 0px auto;
+  font-size: 15px;
+}
+/**/
+
+/*Start of Media Queries */
+
+@media screen and (max-width: 1400px) {
+  .menu {
+    display: grid;
+    text-align: center;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    overflow: auto;
+  }
+
+  a .menu-pdf {
+    width: 350px;
+  }
+
+  a .menu-pdf:hover {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .catering-box p {
+    width: 70%;
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .resturant-name {
+    font-size: 60px;
+  }
+
+  .catering-box {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    margin-bottom: auto;
+    overflow: auto;
+  }
+
+  .catering-fries-picture {
+    width: 60%;
+    margin: 10px auto;
+  }
+
+  .catering-box p {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-gap: 10px;
+  }
+
+  a .menu-pdf {
+    width: 80%;
+  }
+
+  a .menu-pdf:hover {
+    width: 80%;
+  }
+
+  .send-message {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .resturant-name {
+    font-size: 45px;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .resturant-name {
+    font-size: 35px;
+  }
+
+  #navbar {
+    word-spacing: 100px;
+  }
+
+  .catering-fries-picture {
+    width: 80%;
+  }
+
+  .catering-box p {
+    font-size: 25px;
+    width: 90%;
+  }
+
+  .send-message {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .resturant-name {
+    font-size: 40px;
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    overflow: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  h3 {
+    width: 90%;
+    display: block;
+    font-size: 32px;
+    margin: auto;
+  }
+
+  .info {
+    width: 80%;
+    height: 40px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .resturant-name {
+    font-size: 30px;
+  }
+
+  #navbar {
+    height: 20px;
+    text-align: center;
+    word-spacing: 50px;
+    font-size: 16px;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+
+  .catering-box p {
+    font-size: 20px;
+    width: 90%;
+  }
+
+  h3 {
+    width: 90%;
+    display: block;
+    font-size: 25px;
+    margin: auto;
+  }
+}
+
+/* */
+
+@media screen and (max-width: 450px) {
+  .resturant-name {
+    font-size: 20px;
+    margin-left: 19px;
+  }
+
+  #navbar {
+    word-spacing: 40px;
+  }
+
+  body {
+    margin: 15px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .catering-fries-picture {
+    width: 60%;
+  }
+
+  .catering-box p {
+    font-size: 16px;
+    width: 90%;
+  }
+
+  .send-message {
+    width: 90%;
+  }
+
+  h3 {
+    width: 90%;
+    display: block;
+    font-size: 25px;
+    margin: auto;
+  }
+}
+
+/**/
