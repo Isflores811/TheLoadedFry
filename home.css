@@ -467,6 +467,10 @@ a .icon {
     word-spacing: 40px;
   }
 
+  body {
+    margin: 15px;
+  }
+
   .fries-graphic {
     margin: 30% 0% 0% -33%;
     transform: scale(0.7, 0.9);
