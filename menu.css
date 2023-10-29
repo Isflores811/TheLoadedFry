@@ -361,11 +361,6 @@ textarea {
 /* */
 
 @media screen and (max-width: 450px) {
-  .resturant-name {
-    font-size: 20px;
-    margin-left: 19px;
-  }
-
   #navbar {
     word-spacing: 40px;
   }
