@@ -276,6 +276,7 @@ textarea {
 @media screen and (max-width: 700px) {
   .resturant-name {
     font-size: 35px;
+    margin-left: 10px;
   }
 
   #navbar {
@@ -299,6 +300,7 @@ textarea {
 @media screen and (max-width: 600px) {
   .resturant-name {
     font-size: 40px;
+    margin-left: 12px;
   }
 
   .menu {
