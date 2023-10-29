@@ -55,7 +55,10 @@ a:visited {
   background-color: rgb(223, 111, 129);
   border-radius: 3px;
 }
+/**/
 
+
+/*About Restaurant*/
 .about-description .about-title {
   font-size: 50px;
   font-family: "Chewy", cursive;
@@ -164,7 +167,9 @@ span.closed {
   width: 40px;
   height: 30px;
 }
+/**/
 
+/*Media Queries*/
 @media screen and (max-width: 1100px) {
   .about-description .about-title {
     font-size: 40px;
@@ -369,3 +374,4 @@ span.closed {
     font-size: 12px;
   }
 }
+/**/
