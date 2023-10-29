@@ -234,6 +234,7 @@ span.closed {
 @media screen and (max-width: 700px) {
   .resturant-name {
     font-size: 35px;
+     margin-left: 10px;
   }
 
   #navbar {
@@ -244,6 +245,7 @@ span.closed {
 @media screen and (max-width: 600px) {
   .resturant-name {
     font-size: 40px;
+     margin-left: 12px;
   }
   .worker-picture {
     width: 90%;
